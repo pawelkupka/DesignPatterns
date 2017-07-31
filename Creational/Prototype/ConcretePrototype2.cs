@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Prototype
+namespace DesignPatterns.Creational.Prototype
 {
     public class ConcretePrototype2 : IPrototype
     {

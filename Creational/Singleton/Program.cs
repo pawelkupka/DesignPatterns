@@ -1,4 +1,4 @@
-﻿namespace Singleton
+﻿namespace DesignPatterns.Creational.Singleton
 {
     class Program
     {

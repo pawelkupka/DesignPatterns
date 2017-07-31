@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Singleton
+namespace DesignPatterns.Creational.Singleton
 {
     public class StaticallyInitializedSingleton
     {

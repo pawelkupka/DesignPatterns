@@ -1,4 +1,4 @@
-﻿namespace Prototype
+﻿namespace DesignPatterns.Creational.Prototype
 {
     class Program
     {
