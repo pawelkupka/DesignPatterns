@@ -1,15 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Prototype
+﻿namespace Prototype
 {
     class Program
     {
         static void Main(string[] args)
         {
+            var prototype1 = new ConcretePrototype1();
+            var prototype2 = new ConcretePrototype2();
+
+            var prototype = prototype1.Clone();
+            prototype.DisplayState();
+
+            prototype = prototype2.Clone();
+            prototype.DisplayState();
         }
     }
 }
