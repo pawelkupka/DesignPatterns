@@ -2,8 +2,6 @@
 {
     public interface IComponent
     {
-        IComponent Add(IComponent component);
-        IComponent Remove(IComponent component);
         void Operation();
     }
 }

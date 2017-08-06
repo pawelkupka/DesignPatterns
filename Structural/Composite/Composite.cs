@@ -14,28 +14,20 @@ namespace DesignPatterns.Structural.Composite
             _components = new List<IComponent>();
         }
 
-        public IComponent Add(IComponent component)
+        public void Add(IComponent component)
         {
             _components.Add(component);
-            return this;
         }
 
-        public IComponent Remove(IComponent component)
+        public void Remove(IComponent component)
         {
             _components.Remove(component);
-            return this;
-        }
-
-        public IList<IComponent> GetChildren()
-        {
-            return _components;
         }
 
         public void Operation()
         {
             Console.WriteLine(_name);
-            var children = GetChildren();
-            foreach (var child in children)
+            foreach (var child in _components)
                 child.Operation();
         }
     }

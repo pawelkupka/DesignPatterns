@@ -11,16 +11,6 @@ namespace DesignPatterns.Structural.Composite
             _name = name;
         }
 
-        public IComponent Add(IComponent component)
-        {
-            throw new InvalidOperationException();
-        }
-
-        public IComponent Remove(IComponent component)
-        {
-            throw new InvalidOperationException();
-        }
-
         public void Operation()
         {
             Console.WriteLine(_name);
