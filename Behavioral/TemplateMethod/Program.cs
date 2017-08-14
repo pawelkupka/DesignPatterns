@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TemplateMethod
+﻿namespace DesignPatterns.Behavioral.TemplateMethod
 {
     class Program
     {
         static void Main(string[] args)
         {
+            // Template method defines the program skeleton of an algorithm in an operation, 
+            // deferring some steps to subclasses.
+            var algorithm = new Algorithm();
+            algorithm.TemplateMethod(new ConcreteClassA());
+            algorithm.TemplateMethod(new ConcreteClassB());
         }
     }
 }
