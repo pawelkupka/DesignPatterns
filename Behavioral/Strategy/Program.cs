@@ -7,9 +7,10 @@
             // Strategy (or policy) enables selecting an algorithm at runtime
             var strategyA = new StrategyA();
             var strategyB = new StrategyB();
-            var context = new Context();
-            context.Execute(strategyA);
-            context.Execute(strategyB);
+            var contextA = new Context(strategyA);
+            var contextB = new Context(strategyB);
+            contextA.Execute();
+            contextB.Execute();
         }
     }
 }

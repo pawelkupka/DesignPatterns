@@ -2,9 +2,16 @@
 {
     public class Context
     {
-        public void Execute(IStrategy strategy)
+        private readonly IStrategy _strategy;
+
+        public Context(IStrategy strategy)
         {
-            strategy.Algorithm(this);
+            _strategy = strategy;
+        }
+
+        public void Execute()
+        {
+            _strategy.Algorithm(this);
         }
     }
 }
