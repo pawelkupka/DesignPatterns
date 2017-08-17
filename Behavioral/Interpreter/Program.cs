@@ -7,7 +7,7 @@ namespace DesignPatterns.Behavioral.Interpreter
         static void Main(string[] args)
         {
             // Interpreter pattern specifies how to evaluate sentences in a language
-            var context = new Context("3 4 2 + +");
+            var context = new Context("3 4 2");
             var syntaxTree = new NonterminalExpression(
                 new NonterminalExpression(
                     new TerminalExpression(), new TerminalExpression()), 
