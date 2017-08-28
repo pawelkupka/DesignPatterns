@@ -11,7 +11,7 @@ namespace DesignPatterns.Behavioral.Specification
             var subject2 = new SubjectSpecification("subject2");
             var subject3 = new SubjectSpecification("subject3");
 
-            var condition = subject1.Or(subject2.And(subject3.Not()));
+            var condition = subject1.Or(subject2);
             var isSatisfied = condition.IsSatisfiedBy(subject3);
 
             Console.WriteLine(isSatisfied.ToString());
