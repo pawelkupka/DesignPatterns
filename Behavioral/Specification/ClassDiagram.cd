@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="DesignPatterns.Behavioral.Specification.AndSpecification">
+    <Position X="0.5" Y="2.75" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAIA=</HashCode>
+      <FileName>AndSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.Behavioral.Specification.CompositeSpecification">
+    <Position X="4.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAAAAAAAA=</HashCode>
+      <FileName>CompositeSpecification.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Behavioral.Specification.NotSpecification">
+    <Position X="2.5" Y="5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>NotSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.Behavioral.Specification.OrSpecification">
+    <Position X="6.5" Y="2.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAIA=</HashCode>
+      <FileName>OrSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.Behavioral.Specification.Program" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.Behavioral.Specification.SubjectSpecification">
+    <Position X="6.5" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>SubjectSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DesignPatterns.Behavioral.Specification.ISpecification">
+    <Position X="7.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAACAAAABgAAAAAAAAAAA=</HashCode>
+      <FileName>ISpecification.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
